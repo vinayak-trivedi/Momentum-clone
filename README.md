@@ -1,6 +1,10 @@
 # Momentum-clone
 It is a chrome extension which is an clone of momentum chrome extesion. It makes your chrome home tab look less boring.
 
+# Demo
+
+![Chrome extesion demo photo](/assets/demo.png)
+
 # Steps to install
 1.Clone this repository.<br>
 2.Navigate to chrome://extensions/ <br>
