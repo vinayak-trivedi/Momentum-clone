@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    text-shadow: 0px 0px 10px #242424;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1rem;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+#crypto-head {
+    display: flex;
+    margin-bottom: 5px;
+}
+#crypto-head > p {
+    margin-left: 5px;
+}
+#crypto > p {
+    margin: 0;
+}
+#timeContainer {
+    text-align: center;
+    font-size: 5rem;
+}
+#quotes {
+    text-align: center;
+    font-size: 1.5rem;
+}
+#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+#weather img {
+    /* border: 2px solid magenta; */
+    padding: -10;
+}
+#weather .city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -15px;
+    font-size: 15px;
+}
+#weather .temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
